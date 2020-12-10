@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>div {text-align: center}</style>
     <meta charset="UTF-8">
     <title>Tweet4Me</title>
@@ -9,16 +10,23 @@
 <body style="background-color:powderblue;">
 <div>
 <h1>Tweet for me </h1>
-Wattup. Write a tweet for me. Pls dont get me banned. Thanks. <br>
+Hi! My name is Michael Driscoll, and I created a community twitter account. Try to write a viral tweet for me!<br>
 
-Enter Tweet below: <br>
+    <div class="col d-flex justify-content-center">
+    <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Enter a Tweet!</h5>
+    <p class="card-text"> <form action="/submit" method="POST">
+	<input type="text" name="tweet" id = "tweet">
+      </p>
+      <button type = "submit" class = "btn btn-primary">Submit Tweet</button>
+      </form>
+  </div>
+</div>
+        </div>
 
 
-<form action="/submit" method="POST">
-	<label> Tweet: </label>
-    <input type="text" name="tweet" id = "tweet">
-    <input type = "submit">
-</form>
+
 
     <p>
         See the results at <a href = https://twitter.com/snug_and_friend target = "_blank">the official twitter!</a>

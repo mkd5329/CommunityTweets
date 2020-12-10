@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bbaa1407-e3a5-4f9b-a8d8-3f13d2a00f11" name="Default Changelist" comment="added very basic word filter function (that doesn;">
       <change afterPath="$PROJECT_DIR$/src/blocked_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/word_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/word_filter.py" afterDir="false" />
     </list>
